@@ -2,6 +2,10 @@
 
 This is a description of what the Berlin Areas Quality of Life Dashboard does.
 
+
+![image](https://user-images.githubusercontent.com/73293783/152703860-e9ab79ae-7193-476b-9cd4-32e7938c993a.png)
+
+
 # Description
 
 This tool visualizes datasets on Berlin's map and produces a score for each area based on the laoded datasets.
