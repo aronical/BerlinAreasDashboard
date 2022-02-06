@@ -1,0 +1,20 @@
+/* .FlexChild{
+    flex-grow: 1;
+} */
+
+.dash-graph{
+            height: 700px; 
+            width: 1000px;
+
+}
+
+
+.FlexChildTitle{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.SingleSliderCont{
+    margin: 25px 0;
+}
