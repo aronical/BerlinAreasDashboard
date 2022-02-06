@@ -33,23 +33,12 @@ The Clean Code Cheet Sheet with code snippets as example from the code can be fo
 
 # Build Management
 
-The Build Management can be found in here:
+The Build Management files can be found in [here](https://github.com/aronical/BerlinAreasDashboard/tree/main/src/main/python):
 
     build.py 
     setup.py 
     pyproject.toml 
 
-It was created with the pybuilder. This is a powerful tool, which was created mainly for python and provides a build-automation.
-
-In my build, there are several tasks to do:
-
-    Checking the Python Version
-    Checking the requirements
-    Checking the Code Coverage
-    Checking the Code against Code Style PEP8
-    Automating Unit-Tests
-
-In my build, I set the coverage threshold and the parameter to not break the build by a not fullfilling coverage. The reason is, that in my code I don't fullfill the coverage of 75%. Thats because I don't intend to write tests for every code in my project. I think the most used and relevant functions should be tested. Of course it is recommended to test all the code, but in my opinion you need to do a trade-off between time and importance/usage.
 
 # Unit-Tests
 
