@@ -3,7 +3,7 @@
 This is a description of what the Berlin Areas Quality of Life Dashboard does.
 
 
-![image](https://user-images.githubusercontent.com/73293783/152703860-e9ab79ae-7193-476b-9cd4-32e7938c993a.png)
+![image](https://user-images.githubusercontent.com/73293783/152703893-8cdbdb76-374a-4c54-b41d-91146a847249.png)
 
 
 # Description
