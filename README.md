@@ -1,8 +1,5 @@
 ## Berlin Areas Quality of Life
 
-This is a description of what the Berlin Areas Quality of Life Dashboard does.
-
-
 ![image](https://user-images.githubusercontent.com/73293783/152703893-8cdbdb76-374a-4c54-b41d-91146a847249.png)
 
 
@@ -18,12 +15,12 @@ Then visit http://127.0.0.1:8050/ in browser.
 
 # UML Diagrams
 
-The Diagrams can be found in here: 
+The Diagrams can be found in here: https://github.com/aronical/BerlinAreasDashboard/tree/main/docs/UML
 
 
 # DDD - Domain Driven Design
 
-The DDD-Diagram and the description can be found in here: 
+The DDD-Diagram and the description can be found in here: https://github.com/aronical/BerlinAreasDashboard/tree/main/docs/DDD
 
 # Metrics
 
