@@ -10,6 +10,8 @@ To start the dashboard, go to the directoy src/main/python and run this code aft
 
 python BerlinPop.py
 
+Then visit http://127.0.0.1:8050/ in browser.
+
 # UML Diagrams
 
 The Diagrams can be found in here: 
