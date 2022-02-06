@@ -24,8 +24,7 @@ The DDD-Diagram and the description can be found in here: https://github.com/aro
 
 # Metrics
 
-The metrics can be found in here: 
-
+SonarCloud is chosen because of the easy GitHub integration. Aside from some code smells, everything looks good. Metrics scrfeenshot can be found in here: https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/Metrics_SonarCloud.png
 
 
 # Clean Code Development:
@@ -77,7 +76,14 @@ The CD-pipeline is built with Github Actions. The tasks to be done are:
 
 # IDE
 
-The IDE-Description can be found in here: https://github.com/FelixLehn/ExpenseTracker/blob/main/docs/IDE
+My go-to IDE was Microsoft Visual Studio Code. I chose it mainly due to the simplicity and speed of it. It seemed to load projects faster than PyCharm. The project is done in Python 3.9.0. I was able to easily integrate my GitHub to it and choose needed environment.
+
+My most-used shortcuts were:
+
+CTRL + F5: Running without debugging
+CTRL + SHIFT + F5: Restart run
+CTRL + S: :)
+
 
 # DSL-Demo
 
