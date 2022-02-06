@@ -5,9 +5,9 @@
 
 # Description
 
-This tool visualizes datasets on Berlin's map and produces a score for each area based on the laoded datasets.
+This tool visualizes datasets on Berlin's map and produces a score for each area based on the loaded datasets.
 
-To start the dashboard, go to the directoy src/main/python and run this code after installation of the requirements.txt:
+To start the dashboard, go to the directory src/main/python and run this code after installation of the requirements.txt:
 
 python BerlinPop.py
 
