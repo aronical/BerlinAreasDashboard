@@ -21,7 +21,7 @@ def add_gml_id_to_df(df, _ortsteile_id_map, ortsteil_key_in_df='Ortsteil'):
 def get_berlin_population_density_data(ortsteile_id_map):
 
     cols_list = ["Ortsteil", "Einwohner"]
-    df = pd.read_csv("datasets\Ortsteil_Pop.csv", names=cols_list, header=1)
+    df = pd.read_csv("resources\datasets\Ortsteil_Pop.csv", names=cols_list, header=1)
 
     add_gml_id_to_df(df, ortsteile_id_map)
 
@@ -41,7 +41,7 @@ def get_berlin_population_density_data(ortsteile_id_map):
 def get_school_numbers(ortsteile_id_map):
 
     cols_list = ["Ortsteil", "Schulen"]
-    df = pd.read_csv("datasets\SchoolNumbers.csv", names=cols_list, header=1)
+    df = pd.read_csv("resources\datasets\SchoolNumbers.csv", names=cols_list, header=1)
 
     # random.seed(1)
     # df['Einwohner'] = df['Einwohner'].apply(lambda x: x * random.random())
@@ -64,7 +64,7 @@ def get_school_numbers(ortsteile_id_map):
 def get_rents(ortsteile_id_map):
 
     cols_list = ["Ortsteil", "Mietpreise"]
-    df = pd.read_csv("datasets\Miete.csv", names=cols_list, header=1)
+    df = pd.read_csv("resources\datasets\Miete.csv", names=cols_list, header=1)
 
 
     add_gml_id_to_df(df, ortsteile_id_map)
@@ -85,7 +85,7 @@ def get_rents(ortsteile_id_map):
 def get_parks(ortsteile_id_map):
 
     cols_list = ["Ortsteil", "ParkCount"]
-    df = pd.read_csv("datasets\Parks.csv", names=cols_list, header=1)
+    df = pd.read_csv("resources\datasets\Parks.csv", names=cols_list, header=1)
 
 
     add_gml_id_to_df(df, ortsteile_id_map)
@@ -136,7 +136,7 @@ def get_data_template(ortsteile_id_map):
 
 def load_data():
 
-    berlin_ortsteile_geojson = json.load(open("lor_ortsteile.geojson", "r", encoding='utf-8'))
+    berlin_ortsteile_geojson = json.load(open("resources\lor_ortsteile.geojson", "r", encoding='utf-8'))
 
     # create ortsteil id map -> {ortsteil: gml_id_of_ortsteil}
     ortsteile_id_map = {
