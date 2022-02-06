@@ -15,7 +15,7 @@ Then visit http://127.0.0.1:8050/ in browser.
 
 # UML Diagrams
 
-The Diagrams can be found in here: https://github.com/aronical/BerlinAreasDashboard/tree/main/docs/UML
+Diagrams can be found in here: https://github.com/aronical/BerlinAreasDashboard/tree/main/docs/UML
 
 
 # DDD - Domain Driven Design
