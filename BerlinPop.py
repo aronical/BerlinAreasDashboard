@@ -166,7 +166,7 @@ app.layout = html.Div(children=[
 style={'margin': '0 15% 0 15%'}, 
 
 
-# style={'width': '70%','padding-left':'10%', 'padding-right':'25%'}
+
 )
 
 @app.callback(
@@ -194,27 +194,14 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
         dataset4 = all_dataset_dicts[data_keys[3]]['df']['ParkCount']
 
 
-        # print('slider1 value: ',Slider1)
-
-        # ortsteil_names = all_dataset_dicts[data_keys[0]]['df']['Ortsteil']
-
-        # print(ortsteil_names)
-
-        #normalize the numbers
-        #scale numbers to use ins a scoring system
-        
         
         scaler = preprocessing.MinMaxScaler()
 
-        # np_list = dataset1.values.reshape(-1,1)
-        # normalized_list=scaler.fit_transform(np_list)
 
         def normalize(dataset):
             np_list = dataset.values.reshape(-1,1)
             normalized_list=scaler.fit_transform(np_list)
             return(normalized_list)
-
-
 
 
         #Slider Values Re-Definition for Score Calculation and Slider Mark Position Adjustment
