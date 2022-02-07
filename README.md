@@ -1,11 +1,13 @@
 ## Berlin Areas Quality of Life
 
-![image](https://user-images.githubusercontent.com/73293783/152703893-8cdbdb76-374a-4c54-b41d-91146a847249.png)
-
 
 # Description
 
 This tool visualizes datasets on Berlin's map and produces a score for each area based on the loaded datasets.
+
+
+![image](https://user-images.githubusercontent.com/73293783/152703893-8cdbdb76-374a-4c54-b41d-91146a847249.png)
+
 
 To start the dashboard, go to the directory src/main/python and run this code after installation of the requirements.txt:
 
@@ -24,7 +26,7 @@ The DDD-Diagram and the description can be found in here: https://github.com/aro
 
 # Metrics
 
-SonarCloud is chosen because of the easy GitHub integration. Aside from some code smells, everything looks good. Metrics scrfeenshot can be found in here: https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/Metrics_SonarCloud.png
+SonarCloud is chosen because of the easy GitHub integration. Aside from some smelly code, everything looks good. Metrics screenshot can be found in here: https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/Metrics_SonarCloud.png
 
 
 # Clean Code Development:
