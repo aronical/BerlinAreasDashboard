@@ -52,18 +52,11 @@ The Unit-Test package used in my code is the built-in module unittest. The modul
 
 # Continuous Delivery
 
-The pipeline for the continoues delivery can be found in here: 
+I used Github Actions for building a CD pipeline. [Here](https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/CD_Success.png) is the successful run.
 
+The pipeline for the continoues delivery can be found in [here](https://github.com/aronical/BerlinAreasDashboard/blob/main/.github/workflows/python-app.yml). 
 
-The CD-pipeline is built with Github Actions. The tasks to be done are:
-
-    set up ubuntu environment
-    set up Python with Version 3.8
-    installs or upgrades pip
-    installs or upgrades flake8
-    installs (if provided) the requirements.txt
-    checks if there are syntax errors in python
-    runs the Unit-Tests
+ 
 
 # IDE
 
