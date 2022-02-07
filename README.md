@@ -26,8 +26,27 @@ The DDD-Diagram and the description can be found in here: https://github.com/aro
 
 # Metrics
 
-SonarCloud is chosen because of the easy GitHub integration. Aside from some smelly code, everything looks good. Metrics screenshot can be found in here: https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/Metrics_SonarCloud.png
+SonarCloud is chosen because of the easy GitHub integration. Aside from some smelly code, everything looks good.
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=bugs)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=aronical_BerlinAreasDashboard&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=aronical_BerlinAreasDashboard)
 
 # Clean Code Development:
 
@@ -60,12 +79,14 @@ The pipeline for the continoues delivery can be found in [here](https://github.c
 
 # IDE
 
-My go-to IDE was Microsoft Visual Studio Code. I chose it mainly due to the simplicity and speed of it. It seemed to load projects faster than PyCharm. The project is done in Python 3.9.0. I was able to easily integrate my GitHub to it and choose needed environment.
+My go-to IDE was Microsoft Visual Studio Code. I chose it mainly due to the simplicity and speed of it. It seemed to load projects way faster than PyCharm, which is a plus for my non-patient self. Besides I found a color palette that I liked. The project is done in Python 3.9.0. I was able to easily integrate my GitHub to it and choose needed environment.
 
 My most-used shortcuts were:
 
-CTRL + F5: Running without debugging
+CTRL + F5: Run without debugging
+
 CTRL + SHIFT + F5: Restart run
+
 CTRL + S: :)
 
 
