@@ -65,7 +65,9 @@ My go-to IDE was Microsoft Visual Studio Code. I chose it mainly due to the simp
 My most-used shortcuts were:
 
 CTRL + F5: Running without debugging
+
 CTRL + SHIFT + F5: Restart run
+
 CTRL + S: :)
 
 
