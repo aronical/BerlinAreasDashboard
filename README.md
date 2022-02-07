@@ -79,7 +79,7 @@ The pipeline for the continoues delivery can be found in [here](https://github.c
 
 # IDE
 
-My go-to IDE was Microsoft Visual Studio Code. I chose it mainly due to the simplicity and speed of it. It seemed to load projects way faster than PyCharm and it is a plus for my non-patient self. The project is done in Python 3.9.0. I was able to easily integrate my GitHub to it and choose needed environment.
+My go-to IDE was Microsoft Visual Studio Code. I chose it mainly due to the simplicity and speed of it. It seemed to load projects way faster than PyCharm, which is a plus for my non-patient self. Besides I found a color palette that I liked. The project is done in Python 3.9.0. I was able to easily integrate my GitHub to it and choose needed environment.
 
 My most-used shortcuts were:
 
