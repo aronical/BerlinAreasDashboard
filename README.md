@@ -73,7 +73,7 @@ The Unit-Test package used in my code is the built-in module unittest. The modul
 
 I used Github Actions for building a CD pipeline. [Here](https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/CD_Success.png) is the successful run.
 
-The pipeline for the continoues delivery can be found in [here](https://github.com/aronical/BerlinAreasDashboard/blob/main/.github/workflows/python-app.yml). 
+The pipeline for the continuous delivery can be found in [here](https://github.com/aronical/BerlinAreasDashboard/blob/main/.github/workflows/python-app.yml). 
 
  
 
@@ -92,7 +92,8 @@ CTRL + S: :)
 
 # DSL-Demo
 
-The DSL-Demo can be found in here: https://github.com/FelixLehn/ExpenseTracker/blob/main/src/main/python/dsl_example.py It uses the predefined Budget Class from the ExpenseTracker.
+I made a simple expense tracker. Here is a link to the DSL file I created: https://github.com/aronical/BerlinAreasDashboard/blob/main/src/main/python/dsl_int.py
+
 
 # Functional Programming
 
