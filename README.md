@@ -50,7 +50,7 @@ SonarCloud is chosen because of the easy GitHub integration. Aside from some sme
 
 # Clean Code Development:
 
-The Clean Code Cheet Sheet with code snippets as example from the code can be found in here: 
+The Clean Code Cheet Sheet with code snippets as example from my code can be found in [here](https://github.com/aronical/BerlinAreasDashboard/blob/main/docs/CleanCode_Cheat.jpg).
 
 # Build Management
 
