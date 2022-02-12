@@ -264,7 +264,7 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
 
     # zoom map to existing data
     fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0}),
-    fig.update_geos(fitbounds="locations", visible=False)
+    fig.update_geos(fitbounds='locations', visible=False)
 
 
 

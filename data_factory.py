@@ -4,7 +4,12 @@ import random
 import pandas as pd
 
 
-def create_data_set_dict(df, title, data_key, hover_name_key, dropdown_label, dropdown_value):
+def create_data_set_dict(df, 
+                         title, 
+                         data_key, 
+                         hover_name_key, 
+                         dropdown_label, 
+                         dropdown_value):
     return {
         'df': df,
         'title': title,
