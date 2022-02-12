@@ -43,9 +43,6 @@ def get_school_numbers(ortsteile_id_map):
     cols_list = ["Ortsteil", "Schulen"]
     df = pd.read_csv("resources\datasets\SchoolNumbers.csv", names=cols_list, header=1)
 
-    # random.seed(1)
-    # df['Einwohner'] = df['Einwohner'].apply(lambda x: x * random.random())
-
     add_gml_id_to_df(df, ortsteile_id_map)
 
     title = 'Number of Schools per District'

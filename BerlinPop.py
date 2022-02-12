@@ -23,7 +23,7 @@ from sklearn import preprocessing
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-berlin_ortsteile_geojson = json.load(open("resources\lor_ortsteile.geojson", "r", encoding='utf-8'))
+berlin_ortsteile_geojson = json.load(open('resources\lor_ortsteile.geojson', 'r', encoding='utf-8'))
 
 # load all data from the factory
 all_dataset_dicts = load_data()
