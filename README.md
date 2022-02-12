@@ -22,7 +22,7 @@ Diagrams can be found in here: https://github.com/aronical/BerlinAreasDashboard/
 
 # DDD - Domain Driven Design
 
-The DDD-Diagram and the description can be found in here: https://github.com/aronical/BerlinAreasDashboard/tree/main/docs/DDD
+The DDD-Diagram and the ubiquitous language description can be found in here: https://github.com/aronical/BerlinAreasDashboard/tree/main/docs/DDD
 
 # Metrics
 
