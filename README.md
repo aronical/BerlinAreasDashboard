@@ -1,7 +1,7 @@
-## Berlin Areas Quality of Life
+# Berlin Areas Quality of Life
 
 
-# Description
+## Description
 
 This tool visualizes datasets on Berlin's map and produces a score for each area based on the loaded datasets.
 
