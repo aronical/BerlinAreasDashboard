@@ -1,5 +1,4 @@
-# Use this interpreter, by typing 'python dsl_interpreter.py habits_tracker.dsl' into the console.
-# If you want to use some other .dsl file, just change the path :)
+# Use this interpreter, by typing 'python dsl_interpreter.py expense_tracker.dsl' into the console, while being in the correct path.
 
 import sys
 
