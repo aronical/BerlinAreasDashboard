@@ -85,9 +85,11 @@ CTRL + S: :)
 
 # DSL-Demo
 
-I made a simple expense tracker. Here is a link to the DSL file I created: https://github.com/aronical/BerlinAreasDashboard/blob/main/src/main/python/dsl_int.py
+I made a simple expense tracker, which sums up my expenses for each category at the end of the month. Here is a link to the DSL file I created: https://github.com/aronical/BerlinAreasDashboard/blob/main/src/main/python/dsl_int.py
+
+It can be run by typing 'python dsl_int.py expense_tracker.dsl' into the console, while being in the correct path.
 
 
 # Functional Programming
 
-The functional programming aspects and its examples can be found in here: https://github.com/FelixLehn/ExpenseTracker/blob/main/docs/Functional_Programming/FP_Aspects.md
+The functional programming examples from my code can be found in here: https://github.com/aronical/BerlinAreasDashboard/edit/main/docs/FP.md
