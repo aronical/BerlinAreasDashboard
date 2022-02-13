@@ -25,7 +25,7 @@ This function takes in another function as its input:
 
 # use closures / anonymous functions:
 
-Lambda function is used as anonymous function
+Lambda function is used as an example of an anonymous function:
 
 ![image](https://user-images.githubusercontent.com/73293783/153751564-6e72859a-a154-48ce-b4c3-25dc2fe98285.png)
 
