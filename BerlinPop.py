@@ -25,8 +25,11 @@ app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 berlin_ortsteile_geojson = json.load(open('resources\lor_ortsteile.geojson', 'r', encoding='utf-8'))
 
+
+
+
 # load all data from the factory
-all_dataset_dicts = load_data()
+all_dataset_dicts = load_data(berlin_ortsteile_geojson)
 
 # create the dropdown options for switching data in the map
 dropdown_options = [
@@ -177,7 +180,6 @@ style={'margin': '0 15% 0 15%'},
     Input('Slider3', 'value'),
     Input('Slider4', 'value')
 
-
 )
 
 def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
@@ -185,7 +187,6 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
     if dataset_dropdown_value == 'score_option':
 
 #storing each data table in individual variables
-  
 
         data_keys = list(all_dataset_dicts.keys())
         dataset1 = all_dataset_dicts[data_keys[0]]['df']['Einwohner']
@@ -194,16 +195,13 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
         dataset4 = all_dataset_dicts[data_keys[3]]['df']['ParkCount']
 
 
-        
-        scaler = preprocessing.MinMaxScaler()
-
 
         def normalize(dataset):
+            scaler = preprocessing.MinMaxScaler()
             np_list = dataset.values.reshape(-1,1)
             normalized_list=scaler.fit_transform(np_list)
             return(normalized_list)
             
-
 
         #Slider Values Re-Definition for Score Calculation and Slider Mark Position Adjustment
         if (Slider1 == 1):
@@ -230,6 +228,8 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
 
       
         score_df = pd.Series(score.flatten())
+
+        print(type(score_df))
 
 
         score_dataset = pd.concat([score_df,id_dataset],axis=1)

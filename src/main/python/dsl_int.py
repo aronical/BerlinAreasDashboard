@@ -1,4 +1,4 @@
-# Use this interpreter, by typing 'python dsl_interpreter.py expense_tracker.dsl' into the console, while being in the correct path.
+# Use this interpreter, by typing 'python dsl_int.py expense_tracker.dsl' into the console, while being in the correct path.
 
 import sys
 
@@ -35,7 +35,7 @@ with open(sys.argv[1]) as file:
 
         # check the instructions for each line and execute them
         if parts[0] == 'Expenses':
-            print("Your expenses in:" + str(category[parts[3]]) + " sums " + parts[3] + "this month")
+            print("Your expenses sum up to: " + str(category[parts[3]]) + " EUR for " + parts[3] + " this month")
 
         else:
             a = category[parts[4]]

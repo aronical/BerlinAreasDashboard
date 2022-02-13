@@ -43,6 +43,7 @@ def get_berlin_population_density_data(ortsteile_id_map):
     return dropdown_value, data_set_dict
 
 
+
 def get_school_numbers(ortsteile_id_map):
 
     cols_list = ["Ortsteil", "Schulen"]
@@ -89,7 +90,6 @@ def get_parks(ortsteile_id_map):
     cols_list = ["Ortsteil", "ParkCount"]
     df = pd.read_csv("resources\datasets\Parks.csv", names=cols_list, header=1)
 
-
     add_gml_id_to_df(df, ortsteile_id_map)
 
     title = 'Number of Parks'
@@ -105,45 +105,19 @@ def get_parks(ortsteile_id_map):
     return dropdown_value, data_set_dict
 
 
-def get_data_template(ortsteile_id_map):
-    """
-    This is only a template to demonstrate how the system works.
+def loadjson():
 
-    The function must be add to "data_set_getter_functions" list. It will
-    then automatically integrated into the system if it is setup correct.
-    """
-    # ...load and process your data
+    loadjson = json.load(open("resources\lor_ortsteile.geojson", "r", encoding='utf-8'))
 
-    # add the gml_id´s to the data frame so that plotly choropleth function can map ortsteile
-    # to the map
-    # add_gml_id_to_df(df, ortsteile_id_map)
-
-    # pass all the needed data to this function in order to wrap the data so
-    # that the app can further use it
-    # df: the pandas data frame
-    # title: a chosen title that gets displayed above the map
-    # data_key: the actual data that should be projected onto the map, e.g. population
-    # dropdown_label: the label that get displayed in dropdown menu for selecting this dataset
-    # dropdown_value: basically an id for the dataset that gets used by the dropdown menu to select the dataset. must be unique!
-    # data_set_dict = create_data_set_dict(
-    #     df, title, data_key, hover_name_key, dropdown_label, dropdown_value
-    # )
-
-    # return the like this!
-    # return dropdown_value, data_set_dict
-
-    # remove
-    pass
+    return(loadjson)
 
 
-def load_data():
 
-    berlin_ortsteile_geojson = json.load(open("resources\lor_ortsteile.geojson", "r", encoding='utf-8'))
+def load_data(loadjson):
 
-    # create ortsteil id map -> {ortsteil: gml_id_of_ortsteil}
     ortsteile_id_map = {
         ortsteil_geo_obj["properties"]["OTEIL"]: ortsteil_geo_obj["properties"]["gml_id"]
-        for ortsteil_geo_obj in berlin_ortsteile_geojson["features"]
+        for ortsteil_geo_obj in loadjson["features"]
     }
 
     all_data = {}
