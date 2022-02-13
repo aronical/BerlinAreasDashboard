@@ -2,3 +2,5 @@
 __pycache__/
 BerlinPopBackup.py
 .ideabackup/
+.gitignore
+.gitattributes

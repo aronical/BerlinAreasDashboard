@@ -202,6 +202,7 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
             np_list = dataset.values.reshape(-1,1)
             normalized_list=scaler.fit_transform(np_list)
             return(normalized_list)
+            
 
 
         #Slider Values Re-Definition for Score Calculation and Slider Mark Position Adjustment
@@ -244,6 +245,8 @@ def update_graph(dataset_dropdown_value, Slider1, Slider2, Slider3, Slider4):
         selected_dataset = all_dataset_dicts[dataset_dropdown_value]
         final_dataset = selected_dataset['df']
         color_key = selected_dataset['data_key']
+
+    
 
  
     fig = px.choropleth(
