@@ -6,7 +6,7 @@
 This tool visualizes datasets on Berlin's map and produces a score for each area based on the loaded datasets.
 
 
-![image](![image](https://user-images.githubusercontent.com/73293783/153752394-21ae25de-900f-4e10-9805-b3969e77d073.png)
+![image](https://user-images.githubusercontent.com/73293783/153752394-21ae25de-900f-4e10-9805-b3969e77d073.png)
 
 
 To start the dashboard, go to the directory src/main/python and run this code after installation of the requirements.txt:
