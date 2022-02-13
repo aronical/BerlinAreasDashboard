@@ -61,13 +61,6 @@ The Build Management files can be found in [here](https://github.com/aronical/Be
     pyproject.toml 
 
 
-# Unit-Tests
-
-The Unit-Tests can be found in here: 
-
-
-The Unit-Test package used in my code is the built-in module unittest. The modules for which a test-code is written are the 'budget.py', 'expense.py', 'help_functions.py' and 'viewer.py'. All of them except the 'help_functions.py' represent the core domains in the ExpenseTracker. The 'help_functions.py' represents functions which are often used in the whole application and are shared between the core domains. The tests get automatically started and are integrated in the build management.
-
 
 # Continuous Delivery
 
