@@ -169,7 +169,6 @@ app.layout = html.Div(children=[
 style={'margin': '0 15% 0 15%'}, 
 
 
-
 )
 
 @app.callback(
